@@ -9,7 +9,7 @@
         <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />
         <ItemStyle ForeColor="#000066" />
         <ItemTemplate>
-          
+          <asp:Label ID="IdLabel" runat="server" Visible="false" Text='<%# Eval("Id") %>' />
             <asp:Label ID="IdLabel" runat="server" Visible="false" Text='<%# Eval("Id") %>' />
             
          <asp:Label ID="TitleLabel" runat="server" Text='<%# Eval("Title") %>' />
